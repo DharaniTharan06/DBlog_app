@@ -1,7 +1,14 @@
 import { Header } from "./Header/Header"
 import { Footer } from "./Footer/Footer"
-import Container from './container/Container'
+import Input from "./Input"
+import Container from "./container/Container"
 import Logo from "./Logo"
 import LogoutBtn from "./Header/LogoutBtn"
+import PostCard from "./PostCard"
+import Select from "./Select"
+import Login from "./Login"
+import Button from "./Button"
+import Signup from "./Signup"
+import Protected from "./AuthLayout"
 
-export { Header , Footer , Container , Logo , LogoutBtn}
+export { Header , Footer , Container , Logo , LogoutBtn , Input , PostCard , Select , Login , Button , Signup , Protected}
