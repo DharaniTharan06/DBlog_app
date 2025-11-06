@@ -11,5 +11,6 @@ import Button from "./Button"
 import Signup from "./Signup"
 import Protected from "./AuthLayout"
 import PostForm from "./post-form/PostForm"
+import AuthLayout from "./AuthLayout"
 
-export { Header , Footer , Container , Logo , LogoutBtn , Input , PostCard , Select , Login , Button , Signup , Protected , PostForm}
+export { Header , Footer , Container , Logo , LogoutBtn , Input , PostCard , Select , Login , Button , Signup , Protected , PostForm , AuthLayout}
