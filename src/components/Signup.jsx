@@ -53,7 +53,7 @@ function Signup() {
                 })}/>
               <Input label="Password: " type="password" placeholder="Enter your password"
                 {...register("password", {required: true,})}/>
-              <Button type="submit" className="w-full">Create Account</Button>
+              <Button type="submit" className="w-full bg-sky-500 hover:bg-sky-700">Create Account</Button>
             </div>
           </form>
       </div>
