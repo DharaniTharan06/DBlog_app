@@ -15,7 +15,7 @@ export class AuthService{
 
     async createAccount({email,password,name}){
         try{
-            const userAccount = await this.account.create({userID : ID.unique(),email,password,name});
+            const userAccount = await this.account.create({userId : ID.unique(),email,password,name});
             if(userAccount){
                 return this.login({email,password});
             }
@@ -41,7 +41,8 @@ export class AuthService{
             if(user) return user;
             else return null;
         }catch(error){
-            throw error;
+            console.log("User is a guest");
+            return null;
         }
     }
 

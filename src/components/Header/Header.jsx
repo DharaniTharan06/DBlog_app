@@ -17,22 +17,22 @@ export const Header = ()=>{
         {
             name: "Login",
             slug: "/login",
-            acitve: !authstatus
+            active: !authstatus
         },
         {
             name: "Signup",
             slug: "/signup",
-            acitve: !authstatus
+            active: !authstatus
         },
         {
             name: "All Posts",
             slug: "/all-posts",
-            acitve: authstatus
+            active: authstatus
         },
         {
             name: "Add Post",
             slug: "/add-post",
-            acitve: authstatus
+            active: authstatus
         },
     ]
     return(
@@ -46,7 +46,7 @@ export const Header = ()=>{
                     </div>
                     <ul className="flex ml-auto">
                         {navItems.map((item) => 
-                            item.acitve? (
+                            item.active? (
                                 <li key={item.name}>
                                     <button 
                                     onClick={() => navigate(item.slug)}
